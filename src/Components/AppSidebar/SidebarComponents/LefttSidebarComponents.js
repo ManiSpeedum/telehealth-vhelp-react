@@ -1,5 +1,5 @@
 import React from "react";
-import {NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function SidebarIcons(props) {
 
@@ -10,11 +10,11 @@ function SidebarIcons(props) {
     ]
 
     const navlinksmap=navlinks.map((value,index)=>(
-        <NavLink to={value.path} key={index} className="LeftSidebarSubLinks">
+        <Link to={value.path} key={index} className="LeftSidebarSubLinks">
             <div className='SidebarLinks'>
                 <div >{value.iconLogo}</div>
             </div>   
-        </NavLink >
+        </Link >
     ))
 
   return (

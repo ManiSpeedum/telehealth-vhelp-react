@@ -3,6 +3,7 @@ import Menu from "./HeaderComponents/Menu";
 import LeftSidebar from '../AppSidebar/LeftSidebar';
 import RightSidebar from '../AppSidebar/RightSidebar';
 import SidebarIcons from "../AppSidebar/SidebarComponents/LefttSidebarComponents";
+import '../../assets/App.css'
 
 const AppHeader = () => {
   const [showSearchResults, setShowSearchResults] = useState(false);

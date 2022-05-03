@@ -1,6 +1,7 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Menu from "../AppHeader/HeaderComponents/Menu";
+import '../../assets/App.css'
 
 const LeftSidebar = () => {
   const navlinks = [
@@ -31,7 +32,7 @@ const LeftSidebar = () => {
   ];
 
   const navlinksmap = navlinks.map((value, index) => (
-    <NavLink to={value.path} key={index} className="LeftSidebarSubLinks">
+    <Link to={value.path} key={index} className="LeftSidebarSubLinks">
       <div className="SidebarLinks">
         <div>{value.iconLogo}</div>
         <div>{value.name}</div>
@@ -39,7 +40,7 @@ const LeftSidebar = () => {
           {value.downAngleIcon}
         </button>
       </div>
-    </NavLink>
+    </Link>
   ));
 
   return (
