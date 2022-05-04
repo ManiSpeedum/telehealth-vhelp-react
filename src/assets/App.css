@@ -130,21 +130,22 @@
   height: 100vh;
   /* z-index: -1; */
 }
-/* .SidebarComponents{
-  padding-top: 100px;
+.SidebarComponents{
+  /* padding-top: 100px; */
   text-align: center;
-  margin-left: 500px;
-} */
+  /* margin-left: 500px; */
+  margin: 60px 150px 200px 300px;
+}
 .CloseLeftHamburgerBox{
   position: absolute;
   top:42px;
   left: 50px;
   border-radius: 50%;
 }
-.FormLayout{
+/* .FormLayout{
   text-align: center;
   margin: 100px 150px 200px 400px;
-}
+} */
 .UserNameInfo{
   opacity: 0.7;
 }

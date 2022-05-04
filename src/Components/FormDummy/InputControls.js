@@ -1,8 +1,8 @@
 import React,{useState} from 'react';
 import ImagePicker from "react-image-picker";
-import img1 from "../../../assets/imagepick.png";
-import img2 from "../../../assets/imagepick.png";
-import img3 from "../../../assets/imagepick.png";
+import img1 from "../../assets/imagepick.png";
+import img2 from "../../assets/imagepick.png";
+import img3 from "../../assets/imagepick.png";
 import "react-image-picker/dist/index.css";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
